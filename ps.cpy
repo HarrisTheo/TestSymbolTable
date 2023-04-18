@@ -1,4 +1,4 @@
-def ps():
+def main_ps():
 #{
     #declare a,b
     def f(t):
@@ -12,5 +12,5 @@ def ps():
 #}
 
 if __name__=="__main__":
-    ps();
+    main_ps();
     

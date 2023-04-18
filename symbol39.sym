@@ -1,0 +1,155 @@
+Scope 3:  G1
+    Parameter entity: y  mode: CV  offset: 12
+    Variable entity: i   offset: 16
+    Temp variable entity: T%1   offset: 20
+
+Scope 2:  F11
+    Parameter entity: y  mode: CV  offset: 12
+    Variable entity: p   offset: 16
+    Function entity: G1  startQuad: 100  framelength: 24
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 1:  P1
+    Parameter entity: x  mode: CV  offset: 12
+    Parameter entity: y  mode: CV  offset: 16
+    Variable entity: a   offset: 20
+    Function entity: F11  startQuad: -1  framelength: -1
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: -1  framelength: -1
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 2:  F11
+    Parameter entity: y  mode: CV  offset: 12
+    Variable entity: p   offset: 16
+    Function entity: G1  startQuad: 100  framelength: 24
+        ↑FormalParameter : y   parMode: CV
+
+    Temp variable entity: T%2   offset: 20
+
+Scope 1:  P1
+    Parameter entity: x  mode: CV  offset: 12
+    Parameter entity: y  mode: CV  offset: 16
+    Variable entity: a   offset: 20
+    Function entity: F11  startQuad: 107  framelength: 24
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: -1  framelength: -1
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 2:  F
+    Parameter entity: i  mode: CV  offset: 12
+    Temp variable entity: T%3   offset: 16
+
+Scope 1:  P1
+    Parameter entity: x  mode: CV  offset: 12
+    Parameter entity: y  mode: CV  offset: 16
+    Variable entity: a   offset: 20
+    Function entity: F11  startQuad: 107  framelength: 24
+        ↑FormalParameter : y   parMode: CV
+
+    Function entity: F  startQuad: 116  framelength: 20
+        ↑FormalParameter : i   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: -1  framelength: -1
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 1:  P1
+    Parameter entity: x  mode: CV  offset: 12
+    Parameter entity: y  mode: CV  offset: 16
+    Variable entity: a   offset: 20
+    Function entity: F11  startQuad: 107  framelength: 24
+        ↑FormalParameter : y   parMode: CV
+
+    Function entity: F  startQuad: 116  framelength: 20
+        ↑FormalParameter : i   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: 123  framelength: 24
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+
+Scope 2:  G1
+    Parameter entity: p  mode: CV  offset: 12
+    Temp variable entity: T%4   offset: 16
+
+Scope 1:  F1
+    Parameter entity: x  mode: CV  offset: 12
+    Function entity: G1  startQuad: 127  framelength: 20
+        ↑FormalParameter : p   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: 123  framelength: 24
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+    Function entity: F1  startQuad: -1  framelength: -1
+        ↑FormalParameter : x   parMode: CV
+
+
+Scope 1:  F1
+    Parameter entity: x  mode: CV  offset: 12
+    Function entity: G1  startQuad: 127  framelength: 20
+        ↑FormalParameter : p   parMode: CV
+
+    Temp variable entity: T%5   offset: 16
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: 123  framelength: 24
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+    Function entity: F1  startQuad: 134  framelength: 20
+        ↑FormalParameter : x   parMode: CV
+
+
+Scope 0:  main_symbol
+    Variable entity: a   offset: 12
+    Variable entity: b   offset: 16
+    Variable entity: c   offset: 20
+    Function entity: P1  startQuad: 123  framelength: 24
+        ↑FormalParameter : x   parMode: CV
+        ↑FormalParameter : y   parMode: CV
+
+    Function entity: F1  startQuad: 134  framelength: 20
+        ↑FormalParameter : x   parMode: CV
+
+
+Scope 0:  mainFunction
+    Function entity: main_symbol  startQuad: 143  framelength: 24
+
+
